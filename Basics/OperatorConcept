@@ -1,0 +1,85 @@
+Try This Those who not get these
+ Relational Operators
+Used to compare two values. They return true or false.
+Operator         Meaning        Example
+==              Equal to        a == b
+!=				Not equal Those a != b
+>               Greater than    a > b
+<               Less than       a < b
+>=     Greater than or equal to a >= b
+<=        Less than or equal to a <= b
+
+Comparison Operator
+
+Operator              Meaning             Example
+==                    Equal               a == b
+!=                    Not equal           a != b
+
+Common Logical Operators
+Operator              Meaning                                      Example
+
+AND (&&, and)         True only if both conditions are true        A AND B
+
+
+OR (|| , or)                                                       A  OR B
+
+
+NOT (!, not)          Reverses the truth value                     NOT A
+
+
+
+
+
+
+
+
+Check if a is greater than b. = a>b
+Check if height is less than width.= height < width
+Check if age is equal to 18. = age == 18
+Check if score is not equal to 100. = score != 100
+Check if temperature is greater than or equal to 30. = temperautre >= 30
+Check if speed is less than or equal to 80. = speed <= 80
+Check if x is greater than 0. = x > 0
+Check if x is less than 0. = x < 0
+Check if x is equal to 0. = x == 0
+Check if marks are greater than or equal to 40. = marks >= 40
+Check if salary is greater than or equal to 10000. = salary >= 10000
+Check if year is greater than 2020.= year > 2020
+Check if weight is less than 50. = weight < 50
+Check if p and q have the same value. = p == q
+Check if p and q are different. = p != q
+Check if time is less than 12. = time < 12
+Check if units are 100 or more. = units >= 100
+Check if balance is greater than 0. = balance > 0
+Check if distance is greater than 5. = distance > 5
+Check if number is greater than or equal to 1000. = number >= 1000
+Check if price1 is greater than price2. = price1 > price2
+Check if n is less than or equal to limit. = n <= limit
+Check if weight is at least 20. = weight >= 20
+Check if hours studied are at least 2. = hours >= 2
+Check if height is at least 120.  = height >= 120 
+Check if dayNumber is equal to 1. = dayNumber == 1
+Check if passwordLength is less than 8. = passwordLength < 8
+Check if length and breadth are equal.= length == breadth
+Check if radius is greater than 0. = radius > 0
+Check if attempts are not equal to maxAttempts. = attempts != maxAttempts
+Check if fuelLevel is less than 15. = fuelLevel < 15
+Check if stock is equal to 0. = stock == 0
+Check if age is at least 13. =  age >= 13 
+Check if temperature is below 0. = temperature < 0
+Check if speed is at least 120. = speed >= 120
+Check if volume is at most 10. = volume <= 10
+Check if minutes are equal to 60. =  minutes == 60
+Check if waterLevel is greater than MAX_LEVEL. = waterLevel > Max_LEVEL
+Check if year is less than 2000. = year < 2000
+Check if temperature is not equal to 25. = temperatue != 25 
+Check if score is not less than 50. = score >= 50  
+Check if age1 and age2 are equal. = age1 == age2
+Check if arrivalTime is earlier than departureTime.  = arrivalTime < departureTime
+Check if givenYear is before birthYear. = givenYear < birthYear
+Check if profit is greater than cost. = profit > cost
+Check if battery is greater than 50. = battery > 50
+Check if rollNo is equal to 101. = rollNo == 101
+Check if price is less than 500. = price < 500
+Check if marks are exactly 100. = marks == 100
+Check if discount is greater than 0. = discount > 0

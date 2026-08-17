@@ -1,0 +1,8 @@
+What is a unary operator?
+A unary operator is an operator that works on a single operand (one variable or value).
+| Syntax | Name           | What happens                         |
+| ------ | --------------        | -------------------------                 |
+| ++a   | pre-increment  | Increment first, then use      |
+| a++   | post-increment | Use first, then increment     | 
+| --a    | pre-decrement  | Decrement first, then use    |
+| a--    | post-decrement | Use first, then decrement   | 
