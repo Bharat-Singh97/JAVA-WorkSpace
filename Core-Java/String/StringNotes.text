@@ -1,0 +1,136 @@
+API -- Application Programming Interface
+WEB API --
+REST API--
+String API
+
+
+Q1.What is String?
+Ans:- 1.String is a sequence of charaters.
+2. String is a character Array.
+3. String is reference type
+----------------------------------------------------
+public final class java.lang.String  extends Object implements Serilizable,Comparable,CharSequence{
+		
+		private char[] value;
+
+		public String(){}
+		public String(String ){}	
+		public String(char arr[] ){}	
+		public String(byte arr[] ){}	
+		public String(StringBuilder ){}	
+		public String(StringBuffer ){}
+
+		
+}
+====================================================
+
+
+Q2.How to create an Object of String?
+Ans:- String s1 = new String(); 
+
+
+Q3. In JAVA String is special class?
+Ans:- we can create String Object in 2 ways:-
+
+1. using new keywords
+
+String s1 = new String();
+
+2. without using new keyword
+
+String 2 = "Hare"
+
+Note:-1.By using new keyword every time object gets created in heap area.
+2. By using without new keywords String object gets memory in literal pool which part of heap area.
+
+3. If in Literal pool if Object is already present no new Object created, same Object point by another reference.
+
+4. And if Object not present in literal pool then new object created in literal pool.
+
+===IMP==
+Q4 String is Immutable?
+Ans:- Whenever if we try to modify String Object new Object will be creating , existing Object won't change.
+
+Example 1. 
+
+String s1 = new String("Hare"); // immutable = unchanged
+
+s1.concat("Krishna");
+System.out.println(s1); // output = Hare
+
+Example 2. How to create String immutable
+
+String s1 = "Sita";
+s1.concat("Ram");
+
+System.out.println(s1);
+
+====================================
+
+String is Special in java
+
+1 : we can create Object of String with new keyword
+
+String s1=new String();
+
+char arr[]={'h','e','l','l','0'};
+String s2=new String(arr);
+
+byte brr[]={65,66,67,68,69};
+
+String s3=new String(brr);  // ABCDE
+
+String s4=new String("Hello");;
+
+
+2 : we can create Object of String without new keyword
+
+String str="Hello";
+
+___________________________
+
+
+Q5.What is Boxing?
+Q6.What is wrapper class?
+
+In Java All Primitive types has their on Type called as Wrapper class
+
+----------------------------------------------------------
+Boxing 
+  1.AutoBoxing
+  2.Boxing
+
+
+  AutoBoxing
+  Integer i1=10;  //Integer.i1 = Integer.valueOf(10) its automatic convert into object yb Java without using any method
+
+  Boxing these two created by user not automatically
+  int num = 10;
+  String number = Stirng.valueOf(num);
+  Integer i2=new Integer(num);
+
+----------------------------------------------------------
+
+  UnBoxing-->
+
+  Conversion of reference type to Primitive type called as UnBoxing					
+  String num="12340";
+  int val Integer.parseInt(num);
+
+  AutoUnBoxing
+
+  Integer i2=new Integer(100);
+  int x = i2;
+
+  -----------------------------------------------------
+
+  public interface java.Lang.Comparable<T>{
+  public int compareTO(Object o)
+  public int compareTO(T o)
+  } 
+
+
+  public class final java.Lang.String implements Comparable<String>{
+  @Override
+  public int comapreTO
+  }

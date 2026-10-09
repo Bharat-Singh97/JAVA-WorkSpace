@@ -1,0 +1,23 @@
+[A] Which of the following is invalid variable name and why?
+
+ BASICSALARY, _basic, basic-hra, #MEAN
+
+ group., 422, population in 2006, over time
+
+ mindovermatter, SINGLE, hELLO, queue.
+
+ Plot # 3, 2015_DDay, teams'svictory 
+
+
+The following are invalid variable names:
+
+basic-hra – Uses - (hyphen), which is not allowed.
+#MEAN – Uses #, which is not allowed.
+group. – Uses . (dot), which is not allowed.
+422 – Starts with a digit.
+population in 2006 – Contains spaces.
+over time – Contains spaces.
+queue. – Uses . (dot).
+Plot # 3 – Contains spaces and #.
+2015_DDay – Starts with a digit.
+teams'svictory – Contains an apostrophe ('), which is not allowed.

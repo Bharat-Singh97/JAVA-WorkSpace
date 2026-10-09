@@ -1,0 +1,100 @@
+x      y        x&y           x|y          x^y(a(!b) + (!a)b)         (x<<y)                   (x>>y)             
+                                                                 (left shift by 2 bits)   (right shit)
+                                                                 (its increase the value   (decrease)
+                                                                 for value formula (x*2^y)  (x/2^y)
+
+0      0         0             0            0
+
+0      1         0             1            1
+
+1      0         0             1            1
+
+1      1         1             1            0
+
+
+
+
+
+
+class Example{
+	public static void main(String[] args) {
+		int x=11;
+		int y=7;
+
+		int res=x&y;
+		System.out.println(res);
+
+		
+	}
+}
+
+
+sol 11 = 1011
+     7 = 0111
+
+   res = 0011 = 3
+
+
+class Example{
+	public static void main(String[] args) {
+		int x=11;
+		int y=7;
+
+		int res=x|y;
+		System.out.println(res);
+
+		
+	}
+}
+ 
+ sol 11 = 1011
+     7 =  0111
+
+   res = 1111 = 15 
+
+
+
+class Example{
+	public static void main(String[] args) {
+		int x=11;
+		int y=7;
+		int res=x^y;
+		System.out.println(res);		
+	}
+}
+
+sol 11 = 1011
+     7 = 0111
+
+   res = 1100 = 12
+
+
+
+
+
+Shift Operator
+
+class Example{
+	public static void main(String[] args) {
+		int x=12;
+		int y=3;
+		int res=x<<y; // left shift operator   96
+		System.out.println(res);	 
+	}
+}
+
+res  x*2^y  = 12*(2^3) = 12 * 8 = 96 
+
+
+class Example{
+	public static void main(String[] args) {
+		int x=24;
+		int y=2;
+		int res=x>>y; // right shift operator   6
+		System.out.println(res);		 
+	}
+}
+
+
+res = x/2^y = 24/2^2 = 24/4 = 6
+

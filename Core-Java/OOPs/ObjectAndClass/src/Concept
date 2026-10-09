@@ -1,0 +1,10 @@
+public class Concept{
+	public static void main(String [] args){
+
+	}
+}
+
+// Note we can write n number of class in single java.
+// But there is only one public class
+// you can't write multiple  public class inside single .java
+// name of public class must be filename
