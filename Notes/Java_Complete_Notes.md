@@ -167,3 +167,187 @@ System.out.println(sum);
 - D. Output → Process → Input
 
 **Your answer:** Write A, B, C, or D in your practice notes.
+
+
+================================================================================================
+
+**CHAPTER 02** · LANGUAGES BEFORE JAVA
+
+# 02. Why Did We Need Java?
+
+---
+
+## 2.1 — What Languages Existed Before Java?
+
+Programming languages developed over time to make computer programming easier and more powerful.
+
+- **Machine Language:** Instructions represented in binary, using `0` and `1`.
+- **Assembly Language:** Uses short symbolic instructions instead of writing everything in binary.
+- **C:** A procedural programming language widely used in system programming.
+- **C++:** Extends C with features such as classes and object-oriented programming.
+- **Java:** Designed to support portable applications through the Java platform.
+
+### Interview Question
+
+**Q. Name some programming languages that existed before Java.**
+
+**Answer:** C and C++ are examples of programming languages that existed before Java.
+
+---
+
+## 2.2 — What Is C Language?
+
+C is a **procedural programming language** developed by Dennis Ritchie at Bell Labs in the early 1970s.
+
+### Key Points
+
+- Programs are organized around functions and procedures.
+- It provides low-level memory access through pointers.
+- It is widely used in operating systems, embedded systems, and system software.
+- It is efficient and gives programmers significant control over memory.
+
+### Simple C Example
+
+```c
+#include <stdio.h>
+
+int main() {
+    int a = 10;
+    int b = 20;
+
+    int sum = a + b;
+
+    printf("%d", sum);
+
+    return 0;
+}
+```
+
+**Output**
+
+```text
+30
+```
+
+### Interview Question
+
+**Q. What is C language?**
+
+**Answer:** C is a general-purpose procedural programming language known for its efficiency and use in system programming.
+
+---
+
+## 2.3 — What Is the Role of C++?
+
+C++ was developed by Bjarne Stroustrup, beginning in the late 1970s as an extension of C.
+
+### Why Was C++ Useful?
+
+- Supports **procedural programming** and **object-oriented programming**.
+- Provides classes, objects, inheritance, and polymorphism.
+- Offers fine-grained control over system resources.
+- Is used in games, desktop applications, and performance-intensive software.
+
+### C vs C++ — Quick Comparison
+
+| Feature | C | C++ |
+|---|---|---|
+| Main approach | Procedural | Procedural and object-oriented |
+| Classes and objects | Not built in as C++-style OOP features | Supported |
+| Memory control | Manual techniques | Manual techniques and additional abstractions |
+| Common uses | System software, embedded systems | Games, systems software, high-performance applications |
+
+### Interview Question
+
+**Q. What is one major difference between C and C++?**
+
+**Answer:** C is primarily procedural, while C++ supports both procedural and object-oriented programming.
+
+---
+
+## 2.4 — Why Was Java Introduced?
+
+Java was developed at Sun Microsystems under James Gosling's leadership. It was publicly released in 1995.
+
+### What Problems Did Java Aim to Address?
+
+- **Portability:** Programs could run on different supported platforms using the Java platform.
+- **Simpler memory management:** Java provides automatic garbage collection.
+- **Object-oriented design:** Java supports classes and objects.
+- **Security features:** The Java platform includes mechanisms designed to support safer execution.
+- **Networked applications:** Java was designed with network-oriented applications in mind.
+
+> **IMPORTANT**
+>
+> Java did not make C or C++ obsolete. All three languages continue to be used for different purposes.
+
+### Interview Question
+
+**Q. Who developed Java, and when was it publicly released?**
+
+**Answer:** Java was developed at Sun Microsystems under James Gosling's leadership and publicly released in 1995.
+
+---
+
+## 2.5 — What Does “Write Once, Run Anywhere” Mean?
+
+Java is known for the phrase **Write Once, Run Anywhere (WORA)**.
+
+The basic idea is that Java source code can be compiled into **bytecode**, which can run on any compatible Java Virtual Machine (JVM).
+
+### How It Works
+
+```text
+       Java Source Code
+          Main.java
+              |
+              v
+       Java Compiler
+           javac
+              |
+              v
+        Java Bytecode
+          Main.class
+              |
+        +-----+-----+
+        |           |
+        v           v
+      JVM on      JVM on
+      Windows     Linux
+        |           |
+        v           v
+      Program     Program
+       runs        runs
+```
+
+The target systems need compatible Java runtime environments. WORA does not mean every program runs everywhere without any platform-specific requirements.
+
+### Interview Question
+
+**Q. What does Write Once, Run Anywhere mean in Java?**
+
+**Answer:** Java bytecode can run on different platforms that provide a compatible JVM, without needing to compile the same source code separately for each platform in the usual case.
+
+---
+
+## 2.6 — Quick Revision
+
+- C is primarily a procedural language.
+- C++ supports procedural and object-oriented programming.
+- Java was publicly released in 1995.
+- Java supports automatic garbage collection.
+- Java bytecode runs on a compatible JVM.
+- Java did not replace C or C++.
+
+---
+
+## 2.7 — Test Your Understanding
+
+**Q1. Which component allows Java bytecode to run on different supported platforms?**
+
+- A. `printf()`
+- B. JVM
+- C. HTML
+- D. SQL
+
+**Your answer:** Write A, B, C, or D.
