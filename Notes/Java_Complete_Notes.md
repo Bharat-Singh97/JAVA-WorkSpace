@@ -351,3 +351,58 @@ The target systems need compatible Java runtime environments. WORA does not mean
 - D. SQL
 
 **Your answer:** Write A, B, C, or D.
+
+
+
+## 2.8 — How Has Java Evolved Over Time?
+
+Java has evolved from its early beginnings into a widely used platform for enterprise applications, backend development, and modern software systems.
+
+### Java Evolution Timeline
+
+```text
+1991 ──► 1995 ──► 1996 ──► 2004 ──► 2014
+  │        │        │        │        │
+ Project  Java     Java     Java     Java
+ begins   announced 1.0     5        8
+                              
+2017 ──► 2018 ──► 2021 ──► 2023 ──► 2025
+  │        │        │        │        │
+ Java 9   Java 11  Java 17  Java 21  Java 25
+```
+
+### Important Milestones
+
+| Year | Version / Event | Why It Matters |
+|---|---|---|
+| **1991** | Green Project | Java's development began at Sun Microsystems. |
+| **1995** | Java announced | Java was publicly introduced. |
+| **1996** | JDK 1.0 | First major public release of Java. |
+| **2004** | Java 5 | Introduced generics, enhanced `for` loops, and annotations. |
+| **2014** | Java 8 | Introduced lambda expressions and the Stream API. |
+| **2017** | Java 9 | Introduced the Java Platform Module System. |
+| **2018** | Java 11 | An important Long-Term Support (LTS) release. |
+| **2021** | Java 17 | An LTS release with language and platform improvements. |
+| **2023** | Java 21 | An LTS release with features such as virtual threads. |
+| **2025** | Java 25 | An LTS release with further language and platform improvements. |
+
+Release dates and version milestones are based on Oracle's Java documentation. <Cite refs={["turn898634search1","turn898634search3","turn898634search8"]}/>
+
+> **Remember**
+>
+> Java releases do not all have the same support period. LTS means **Long-Term Support** and identifies releases intended for longer support arrangements.
+
+### Interview Desk
+
+**Q1. Which Java version introduced lambda expressions?**
+
+**Answer:** Java 8, released in March 2014.
+
+**Q2. What does LTS mean in Java?**
+
+**Answer:** LTS stands for Long-Term Support. It refers to a Java release offered with a longer support period than regular feature releases.
+
+**Q3. Which Java version introduced virtual threads as a permanent feature?**
+
+**Answer:** Java 21.
+
