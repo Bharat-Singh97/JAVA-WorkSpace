@@ -1,0 +1,12 @@
+Q&A
+1.Which keyword is used to implement an interface in Java?
+ans:
+(a) extends
+
+(b)implements
+
+(c)inherits
+
+(d)interface
+Solution description
+The implements keyword is used to implement an interface in Java.

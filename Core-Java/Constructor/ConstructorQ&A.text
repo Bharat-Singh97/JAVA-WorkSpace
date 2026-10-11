@@ -1,0 +1,14 @@
+Q&A
+1. Which of the following statements about constructors is/are correct?
+ans:
+The constructor name should be the same as the class name.
+
+The default constructor invokes super() and sets all instance variables to a default value such as 0, null.
+
+If we do not define a constructor for a class, the compiler will generate one for us
+
+If we want to call parent class constructor, we must call it in the constructor's first line.
+
+2. Which of the following is the correct way to declare a constant in Java?
+ans: 
+final int MAX = 100;The final keyword is used to declare constants in Java.
