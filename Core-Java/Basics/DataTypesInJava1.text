@@ -1,0 +1,92 @@
+Data Types in Java
+ 
+Data types determine the type and size of data a variable can store. 
+There are two main categories of data types: 
+
+Primitive Data Types
+Non-Primitive Data Types.
+ 
+
+Primitive Data Types
+Primitive data types are the building blocks of data manipulation in Java. 
+They are predefined by the language and named using reserved keywords. 
+Java provides eight types of primitive data types, each serving a unique purpose.
+ 
+
+
+ Java Primitive Data Types — Complete Reference Table
+
+Data Type	          Size	          Default Value (Fields)	       Range	                   Wrapper Class	       Example
+byte	              8 bits	      0								  -128 to 127					Byte					byte b = 100;
+short	              16 bits		  0								  -32,768 to 32,767				Short					short s = 1000;
+int	                  32 bits		  0								  -2³¹ to 2³¹ − 1				Integer					int n = 50000;
+long	              64 bits		  0L							  -2⁶³ to 2⁶³ − 1				Long					long l = 900000L;
+float	              32 bits		  0.0f							  Approx. ±3.4028235 × 10³⁸		Float					float f = 10.5f;
+double	              64 bits		  0.0d							  Approx. ±1.7976931 × 10³⁰⁸	Double					double d = 10.5;
+char	              16 bits		  '\u0000'	'					  \u0000' to '\uffff' (0–65,535) Character				char c = 'A';
+boolean	              JVM-dependent	  false							   true or false				Boolean				boolean flag = true;
+
+
+
+Important notes for interviews
+1. Default values: These apply to instance variables and static variables. Local variables do not receive automatic default values; you must initialize them before use.
+2. long literals: Use L when needed, such as long n = 10000000000L;.
+3. float literals: Use f or F, such as float price = 12.5f;. Decimal literals are double by default.
+4. char: Java char represents a UTF-16 code unit, not necessarily an entire Unicode character.
+5. boolean: Java specifies only true and false; its exact storage size is not defined by the language.
+6. Wrapper classes: These allow primitive values to be represented as objects, which is useful in collections such as ArrayList<Integer>.
+
+
+Category	               Data Types
+Integer types	           byte, short, int, long
+Floating-point types	   float, double
+Character type             char
+Logical type	           boolean
+Total primitive data types	8
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Non-Primitive Data Types
+
+ 
+1.Non-primitive data types do not store the actual value but a reference (or memory address) to the object where the data resides.
+2.Java provides built-in non-primitive types like String and arrays.
+3.You can also create user-defined types such as classes and interfaces.
+4.If uninitialized, non-primitive variables default to null.
+ 
+
+Common Non-Primitive Data Types
+1.String:
+Represents a sequence of characters (e.g., "Hello, World!").
+Immutable, meaning the value of a String cannot be changed once created.
+Provides many built-in methods for string manipulation (e.g., .length(), .substring()).
+
+2.Array:
+A collection of variables of the same type stored in a contiguous memory location.
+Fixed in size and indexed (e.g., int[] arr = {1, 2, 3}).
+Can hold primitive or reference types.
+
+3.Class:
+A blueprint for creating objects.
+Encapsulates data (fields) and behaviour (methods).
+
+4.Interface:
+A contract that specifies methods a class must implement.
+Supports abstraction and multiple inheritance.
+
+5.Object:
+The root class for all non-primitive types in Java.
+Every class implicitly extends Object.
+Wrapper Classes:
+Provide a way to use primitive data types as objects (e.g., Integer, Double, Character).
+Useful for collections like ArrayList which only accepts objects.
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+Note:-In Java, the default value of an uninitialized non-primitive variable is null, indicating that it does not reference any object.
+
+ Wrapper Classes Usage
+Why are wrapper classes like Integer and Double used in Java?
+ans:-Wrapper classes like Integer and Double in Java are used to convert primitive types into objects. They allow primitives to be used in collections, provide utility methods, and support features like autoboxing and unboxing for seamless type conversion.
+
+--------------------------------------------------------------------------------------------------------------------------------------

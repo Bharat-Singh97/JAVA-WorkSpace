@@ -1,0 +1,26 @@
+Q1:-What will be the output of System.out.println(10 >>> 2);?
+
+Ans Options: Pick one correct answer from below
+
+2  - ans
+
+5
+
+10
+
+8
+Solution description
+The unsigned right shift (>>>) operator shifts bits without considering sign, resulting in 10 / 4 = 2.
+
+Formulas - left shift - x * y^2
+           right shift - x /y^2
+
+           x= 10, y = 2
+
+           right shift x/y^2 = 10/4 = 2
+
+           >> right shift
+           >> left shift
+
+
+-----------------------------------------------------------
