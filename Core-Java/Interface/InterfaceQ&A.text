@@ -10,3 +10,13 @@ ans:
 (d)interface
 Solution description
 The implements keyword is used to implement an interface in Java.
+
+---------------------------------------------------------------------------------------------------
+2.Can a class implement multiple interfaces?
+ans:-Yes - A class can implement multiple interfaces, which allows for multiple inheritance in Java.
+----------------------------------------------------------------------------------------------------
+Q3.Which of the following is NOT a feature of the Runnable interface?
+Ans:The Runnable interface does not provide a method to stop threads
+
+
+

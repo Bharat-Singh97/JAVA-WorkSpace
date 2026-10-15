@@ -24,3 +24,10 @@ Formulas - left shift - x * y^2
 
 
 -----------------------------------------------------------
+In Java, int is always 32-bit, regardless of the platform.
+-----------------------------------------------------------
+==========================================================
+ Java Iterator Removal Rule
+What happens when remove() is called on an Iterator twice consecutively?
+
+ans:Calling remove() twice without calling next() first throws IllegalStateException.

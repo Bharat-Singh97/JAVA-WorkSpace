@@ -97,4 +97,17 @@ class Example{
 
 
 res = x/2^y = 24/2^2 = 24/4 = 6
+------------------------------------------------------------------------------
+Q.What is the result of 5 | 2 in Java?
+The | operator performs a bitwise OR operation.
+5 = 101
+2 = 010
+    ---
+    111 =7
+Bitwise OR (|) operation results in 5 | 2 = 7.
+
+
+    Interview tip: Don't confuse | (bitwise OR) with || (logical OR), which is used with boolean expressions.
+=======================================================================================================
+
 

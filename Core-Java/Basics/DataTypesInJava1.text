@@ -89,4 +89,5 @@ Note:-In Java, the default value of an uninitialized non-primitive variable is n
 Why are wrapper classes like Integer and Double used in Java?
 ans:-Wrapper classes like Integer and Double in Java are used to convert primitive types into objects. They allow primitives to be used in collections, provide utility methods, and support features like autoboxing and unboxing for seamless type conversion.
 
---------------------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------
+A long variable in Java defaults to 0L.
